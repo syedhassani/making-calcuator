@@ -1,0 +1,36 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color:khaki
+}
+#container{
+    width: 1000px; 
+    height: 550px ;
+    background-image:url("https: //c02.purpledshub.com/uploads/sites/41/2023/01/aaron-lefler-Vs6ip7fsld8-unsplash-4dfbf75.jpg");
+    margin: 20px auto;
+    background-color: crimson;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: cyan;
+    margin: 0 auto;
+    top :20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+#keyboard{
+    height: 400px;
+    
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+ float: left;
+ border-radius: 50%;
+ border-width: 0;
+ font-weight: bold;
+ font-size: 15px;
+ 
+}
