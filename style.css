@@ -1,36 +1,75 @@
-body{
-    font-family:'Courier New', Courier, monospace;
-    background-color:khaki
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: khaki
 }
-#container{
-    width: 1000px; 
-    height: 550px ;
-    background-image:url("https: //c02.purpledshub.com/uploads/sites/41/2023/01/aaron-lefler-Vs6ip7fsld8-unsplash-4dfbf75.jpg");
+
+#container {
+    width: 1000px;
+    height: 550px;
+    background-image: url("https: //c02.purpledshub.com/uploads/sites/41/2023/01/aaron-lefler-Vs6ip7fsld8-unsplash-4dfbf75.jpg");
     margin: 20px auto;
-    background-color: crimson;
+    background: linear-gradient(lightblue, yellow, red);
 }
-#calculator{
+
+#calculator {
     width: 320px;
     height: 520px;
     background-color: cyan;
     margin: 0 auto;
-    top :20px;
+    top: 20px;
     position: relative;
     border-radius: 5px;
     box-shadow: 2px 2px 2px gray;
 }
-#keyboard{
+
+#keyboard {
     height: 400px;
-    
+
 }
-.operator,.number,.empty{
+
+.operator,
+.number,
+.empty {
     width: 50px;
     height: 50px;
     margin: 15px;
- float: left;
- border-radius: 50%;
- border-width: 0;
- font-weight: bold;
- font-size: 15px;
- 
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.number,.empty{
+    background-color:pink;
+}
+.number,.operator{
+cursor: pointer;
+}
+.operator:active,.number:active{
+    font-size: 13px;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0;
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right; 
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color:lightcoral;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+button:nth-child(4){
+    background-color: darkcyan;
+    font-size: 20px;
 }
